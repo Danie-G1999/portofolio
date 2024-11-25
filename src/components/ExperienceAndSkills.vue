@@ -91,26 +91,32 @@ const Skills =ref([
 ]);
 
 const Experinces =ref([
-    {
+    {  
         id:1,
+        role:'Desarrollador MID',
+        company:'Supervisa',
+        date:'Septiembre 2024 - Actualidad'
+    },
+    {
+        id:2,
         role:'Analista de Desarrollo',
         company:'Clinica Asotrauma',
         date:'Julio 2023 - Septiembre 2024'
     },
     {
-        id:2,
+        id:3,
         role:'Desarrollador Jr',
         company:'Pijaos Salud',
         date:'Octubre 2022 - Diciembre 2022'
     },
     {
-        id:3,
+        id:4,
         role:'Analista de Sistemas',
         company:'Mercacentro SAS',
         date:'Marzo 2021 - Octubre 2022'
     },
     {
-        id:4,
+        id:5,
         role:'Desarrollador Web',
         company:'Supervisa',
         date:'Octubre 2019 - Octubre 2020'
