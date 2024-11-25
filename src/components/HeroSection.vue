@@ -21,7 +21,7 @@
                         <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <span class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary
                             border-2 border-transparent"></span>
-                            <span class="relative flex items-center justify-center text-white">Hire Me</span>
+                            <span class="relative flex items-center justify-center text-white">{{ $t('contact_me') }}</span>
                         </button>
                         <button class=" border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <div class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
@@ -37,7 +37,7 @@
                                 </svg>
                                 <div class="download-loader text-white hidden"></div>
                             </div>
-                            <a href="/resume.pdf" download="resume.pdf" class="pl-2 text-primary"> Download resume</a>
+                            <a href="/resume.pdf" download="resume.pdf" class="pl-2 text-primary"> {{ $t('download_pdf') }}</a>
                             </div>
                         </button>
                     </div>

@@ -10,6 +10,10 @@ const messages = {
     about: 'About',
     skills: 'Skills',
     contact: 'Contact',
+    contact_me: 'Contact Me',
+    download_pdf: 'Download resume',
+    my_services: 'My Services',
+    web_development: 'Web Development',
     description_initial: 'Software developer with 5+ years in web development. Expert in scalable digital solutions, creative, precise, and efficient. Values teamwork and discipline.'
   },
   es: {
@@ -20,6 +24,10 @@ const messages = {
     about: 'Acerca de',
     skills: 'Habilidades',
     contact: 'Contacto',
+    contact_me: 'Contactame',
+    download_pdf: 'Descargar currículum',
+    my_services: 'Mis Servicios',
+    web_development: 'Desarrollo Web',
     description_initial: 'Desarrollador de software con más de 5 años en desarrollo web. Experto en soluciones digitales escalables, creativas, precisas y eficientes. Valora el trabajo en equipo y la disciplina.'
   },
 };

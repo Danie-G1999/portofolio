@@ -1,7 +1,7 @@
 <template >
     <section class="text-white mt-20" id="services">
         <div class="px-4 xl:pl-16">
-            <h2 class="text-4xl font-bold text-white mb-4">My Services</h2>
+            <h2 class="text-4xl font-bold text-white mb-4">{{ $t('my_services') }}</h2>
         </div>
         <div class="py-8 xl:px-16 px-4 sm:py-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
             <div v-for="service in services" :key="service.id" data-aos="fade-up"
@@ -14,7 +14,7 @@
                 </div>
                 <div class="text-center">
                     <h3 class="pt-8 text-lg font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
-                        {{ service.name }}
+                        {{ $t(service.name) }}
                     </h3>
                     <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
                         {{ service.description }}
@@ -26,11 +26,12 @@
 </template>
 <script setup>
 import {ref} from 'vue';
+import { useI18n } from 'vue-i18n';
 const services =ref([
     {
         id:1,
         icon:'https://img.icons8.com/ios-filled/100/ffffff/google-code.png',
-        name:'WEB DEVELOPMENT',
+        name:'web_development',
         description:'I offer software development services focused on creating tailored digital solutions using modern technologies and efficient practices. I specialize in building robust, scalable, and well-structured applications that meet the specific needs of each project. My goal is to transform ideas into high-quality digital products, with a focus on creativity, precision, and effective collaboration.'
     },
     {
@@ -40,4 +41,9 @@ const services =ref([
         description:'I offer web design services focused on creating attractive, functional, and tailored websites to meet the needs of each project. My approach combines modern aesthetics with an intuitive user experience, ensuring that each design is not only visually stunning but also efficient and responsive across all devices. I transform ideas into unique websites that stand out and reflect your brands identity.'
     },
     ])
+
+// Método para cambiar el idioma
+const changeLanguage = (lang) => {
+    locale.value = lang;  // Cambiar idioma
+};
 </script>
