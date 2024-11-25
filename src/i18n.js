@@ -3,7 +3,7 @@ import { createI18n } from 'vue-i18n';
 // Definir los mensajes para cada idioma
 const messages = {
   en: {
-    hi: "Hi, I'm",
+    hi: "Hi, I'm ",
     name: 'Daniel',
     changeLanguage: 'Change Language',
     services: 'Services',
@@ -13,7 +13,7 @@ const messages = {
     description_initial: 'Software developer with 5+ years in web development. Expert in scalable digital solutions, creative, precise, and efficient. Values teamwork and discipline.'
   },
   es: {
-    hi: 'Hola, Soy',
+    hi: 'Hola, Soy ',
     name: 'Daniel',
     changeLanguage: 'Cambiar idioma',
     services: 'Servicios',
