@@ -83,6 +83,11 @@ const Skills =ref([
         name:'MySQL',
         width:'90%'
     },
+    {
+        id:8,
+        name:'TailwindCss',
+        width:'65%'
+    },
 ]);
 
 const Experinces =ref([

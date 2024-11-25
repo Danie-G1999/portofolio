@@ -14,11 +14,9 @@
                             </span>😁
                         </h1>
                     </div>
-                    <!-- <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Explicabo eius laboriosam ratione corporis tempore facilis, 
-                         laborum, debitis dolorem accusamus accusantium modi obcaecati? 
-                    </p> -->
+                    <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
+                        Software developer with 5+ years in web development. Expert in scalable digital solutions, creative, precise, and efficient. Values teamwork and discipline.
+                    </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <span class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary
