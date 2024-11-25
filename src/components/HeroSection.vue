@@ -9,13 +9,13 @@
                 <div class="lg:py-6">
                     <div class="text-center lg:text-left">
                         <h1 class="pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl">
-                            Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">
-                                Daniel
+                            {{ $t('hi') }}<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">
+                                {{ $t('name') }}
                             </span>😁
                         </h1>
                     </div>
                     <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        Software developer with 5+ years in web development. Expert in scalable digital solutions, creative, precise, and efficient. Values teamwork and discipline.
+                        {{ $t('description_initial') }}
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
@@ -56,8 +56,17 @@
         </div>
     </section>
 </template>
+
 <script setup>
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useI18n } from 'vue-i18n';
+
 AOS.init();
+const { t, locale } = useI18n();
+
+// Método para cambiar el idioma
+const changeLanguage = (lang) => {
+    locale.value = lang;  // Cambiar idioma
+};
 </script>
