@@ -31,19 +31,13 @@ const services =ref([
         id:1,
         icon:'https://img.icons8.com/ios-filled/100/ffffff/google-code.png',
         name:'WEB DEVELOPMENT',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
+        description:'I offer software development services focused on creating tailored digital solutions using modern technologies and efficient practices. I specialize in building robust, scalable, and well-structured applications that meet the specific needs of each project. My goal is to transform ideas into high-quality digital products, with a focus on creativity, precision, and effective collaboration.'
     },
     {
         id:2,
-        icon:'https://img.icons8.com/external-vectorslab-glyph-vectorslab/100/fffeee/external-Technical-Writing-mobile-app-development-vectorslab-glyph-vectorslab.png',
-        name:'Technical Writing',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
-    },
-    {
-        id:5,
         icon:'https://img.icons8.com/ios-filled/100/ffffff/web-design.png',
         name:'Web Design',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
+        description:'I offer web design services focused on creating attractive, functional, and tailored websites to meet the needs of each project. My approach combines modern aesthetics with an intuitive user experience, ensuring that each design is not only visually stunning but also efficient and responsive across all devices. I transform ideas into unique websites that stand out and reflect your brands identity.'
     },
     ])
 </script>
