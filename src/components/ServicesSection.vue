@@ -38,7 +38,7 @@ const services =ref([
         id:2,
         icon:'https://img.icons8.com/ios-filled/100/ffffff/web-design.png',
         name:'web_desing',
-        description:'description_software'
+        description:'description_design'
     },
     ])
 
