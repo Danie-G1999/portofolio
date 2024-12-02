@@ -17,7 +17,7 @@
                         {{ $t(service.name) }}
                     </h3>
                     <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                        {{ service.description }}
+                        {{ $t(service.description) }}
                     </p>
                 </div>
             </div>
