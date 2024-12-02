@@ -16,7 +16,7 @@
                     <h3 class="pt-8 text-lg font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
                         {{ $t(service.name) }}
                     </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base text-justify">
                         {{ $t(service.description) }}
                     </p>
                 </div>
