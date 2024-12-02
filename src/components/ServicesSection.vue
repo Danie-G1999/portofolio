@@ -37,7 +37,7 @@ const services =ref([
     {
         id:2,
         icon:'https://img.icons8.com/ios-filled/100/ffffff/web-design.png',
-        name:'Web Design',
+        name:'web_desing',
         description:'I offer web design services focused on creating attractive, functional, and tailored websites to meet the needs of each project. My approach combines modern aesthetics with an intuitive user experience, ensuring that each design is not only visually stunning but also efficient and responsive across all devices. I transform ideas into unique websites that stand out and reflect your brands identity.'
     },
     ])
