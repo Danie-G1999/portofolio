@@ -24,17 +24,11 @@
                 </div>
             </div>
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
-                <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">More
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">About</span>
-                    Me
+                <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">{{ $t('more') }}
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{{ $t('about') }}</span>
+                    {{ $t('me') }}
                 </h2>
-                <p class="text-base lg:text-lg mt-8 py-8"> 
-                    Soy un desarrollador de software con más de 5 años de experiencia en desarrollo web, 
-                    trabajando activamente desde 2019. Me apasiona el trabajo en equipo y valoro la dedicación, 
-                    la disciplina y el orden en cada proyecto. Tengo un amplio manejo de diversas tecnologías y 
-                    me destaco por mi capacidad de aprendizaje rápido y por aplicar eficientemente los conocimientos adquiridos. 
-                    Mi enfoque combina creatividad y precisión para ofrecer soluciones robustas y escalables en el mundo digital. 
-                </p>
+                <p class="text-base lg:text-lg mt-8 py-8">{{ $t('about_me') }}</p>
                 <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
                     <!-- <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
                         <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
@@ -42,7 +36,7 @@
                     </div> -->
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
                         <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+20</h3>
-                        <p class="text-sm sm:text-base text-gray-300">Project</p>
+                        <p class="text-sm sm:text-base text-gray-300">{{ $t('projects') }}</p>
                     </div>
 
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
